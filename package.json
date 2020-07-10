@@ -1,0 +1,20 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "To do list",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "npm run server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nitish kr Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "datejs": "^1.0.0-rc3",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.17",
+    "nodemon": "^2.0.4"
+  }
+}
